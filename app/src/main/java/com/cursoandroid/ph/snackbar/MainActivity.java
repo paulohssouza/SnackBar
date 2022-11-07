@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(View v) {
                                 buttonOpen.setText("Botão abrir alterado");
                             }
-                        }).show();
+                        }).setActionTextColor(getResources().getColor(R.color.purple_700))
+                        .show();
             }
         });
     }
